@@ -51,4 +51,3 @@ var obj = { roo: function rar() {} };
 ({ ["roo"]: function rar() {} });
 
 let newVar = Array(0, 1, 2);
-const hello = "world";
