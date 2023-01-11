@@ -57,3 +57,5 @@ var obj = { roo: function rar() {} };
 ({ ["roo"]: function rar() {} });
 let random = Math.random();
 let newVar = Array(0, 1, 2);
+console.log('1');
+console.log('2');
