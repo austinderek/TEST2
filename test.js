@@ -51,6 +51,8 @@ var roo = function rar() {};
 roo = function rar() {};
 obj.roo = function rar() {};
 obj["roo"] = function rar() {};
+let newVar2 = Array(1, 2, 3);
+let newVar3 = Array(2, 3, 4);
 var obj = { roo: function rar() {} };
 ({ ["roo"]: function rar() {} });
 
