@@ -7,7 +7,11 @@ debugger;
 console.log("D");
 debugger;
 if (foo == null) {
-  bar();
+  null;
+}
+
+if (foo == 'bar') {
+ bar();
 }
 
 debugger;
