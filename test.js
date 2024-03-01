@@ -3,7 +3,12 @@ debugger;
 console.log("B");
 debugger;
 console.log("C");
-debugger; console.log("D");debugger;if (foo == null) {bar();}
+debugger;
+console.log("D");
+debugger;
+if (foo == null) {
+  bar();
+}
 
 debugger;
 
@@ -14,7 +19,7 @@ function footwo() {
   let baz;
 }
 
-let foo = function() {
+let foo = function () {
   try {
     return 1;
   } catch (err) {
@@ -46,3 +51,4 @@ var obj = { roo: function rar() {} };
 ({ ["roo"]: function rar() {} });
 
 let newVar = Array(0, 1, 2);
+let unused = 1;
