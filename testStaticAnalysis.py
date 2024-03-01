@@ -1,8 +1,23 @@
-def main():
-    print("Hello, World!")
-    undefined_variable = 42  # This will trigger an error since the variable is not defined.
+# Missing docstring and variable name error
+my_var = 5
 
-if __name__ == "__main__":
-    main()
+# Unused variable error
+unused_variable = "Hello"
 
+# Undefined variable error
+print(unknown_variable)
 
+# Division by zero error
+result = 10 / 0
+
+# Syntax error
+if True:
+    print("Hi")
+
+# Docstring style error
+def my_function():
+  """This is not a proper docstring"""
+  pass
+
+# Using a reserved keyword as a variable name
+class = "This is a class"
